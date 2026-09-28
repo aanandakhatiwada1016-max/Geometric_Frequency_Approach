@@ -351,7 +351,7 @@ start_idx = total_lost // 2
 end_idx = start_idx + len(dft_pu)
 t_dft = t[start_idx:end_idx]
 
-# After running Case E1:
+# After running Case E1: (Change Here after each case changes)
 srf_pu_E1, dsogi_pu_E1 = srf_pu, dsogi_pu
 dft_pu_E1, frenet_pu_E1 = dft_pu, frenet_pu
 t_dft_E1 = t_dft
@@ -394,7 +394,7 @@ def save_fig(fig, name):
 
 
 # ══════════════════════════════════════════════════════
-# CASE 
+# CASE-PLOT - By changing After running each case 
 # ══════════════════════════════════════════════════════
 
 # E1a — Full simulation
